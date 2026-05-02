@@ -18,9 +18,7 @@ This project utilizes a machine learning pipeline to predict employee attrition 
 ```text
 ├── eda.ipynb                              # Exploratory Data Analysis & Visualizations
 ├── preprocessing.ipynb                    # Data cleaning, imputation, and encoding
-├── model.ipynb                            # Model training, GridSearch, and Feature Extraction
-├── requirements.txt                       # Project dependencies
-├── Group3_Dataset_of_Employee_Attrition.csv # Raw dataset
+├── enhanced_model.ipynb                   # Model training, GridSearch, and Feature Extraction
 ├── processed_dataset_tree.csv             # Cleaned data (Label Encoded)
 ├── processed_dataset_nontree.csv          # Cleaned data (One-Hot Encoded & Scaled)
-└── README.md                              # Project documentation
+└── model.ipynb                            # Model Implementation
