@@ -1,4 +1,4 @@
-# Predicting Employee Attrition in the Saudi Private Sector 🇸🇦📊
+# Predicting Employee Attrition in the Saudi Private Sector 📊
 
 **Course:** ARTI 506 - Data Science and Analytics  
 **Team:** Group 3  
@@ -16,9 +16,17 @@ This project utilizes a machine learning pipeline to predict employee attrition 
 
 ## 📂 Repository Structure
 ```text
-├── eda.ipynb                              # Exploratory Data Analysis & Visualizations
-├── preprocessing.ipynb                    # Data cleaning, imputation, and encoding
-├── enhanced_model.ipynb                   # Model training, GridSearch, and Feature Extraction
-├── processed_dataset_tree.csv             # Cleaned data (Label Encoded)
-├── processed_dataset_nontree.csv          # Cleaned data (One-Hot Encoded & Scaled)
-└── model.ipynb                            # Model Implementation
+├── code/
+│   ├── eda.ipynb                              # Exploratory Data Analysis & Visualizations
+│   ├── preprocessing.ipynb                    # Robust data cleaning, imputation, and encoding
+│   ├── model.ipynb                            # Baseline model comparisons
+│   ├── enhanced_model.ipynb                   # Optimized Logistic Regression & Feature Extraction
+│   ├── processed_dataset_tree.csv             # Cleaned data (Label Encoded)
+│   ├── processed_dataset_nontree.csv          # Cleaned data (One-Hot Encoded & Scaled)
+│   └── enhanced_feature_importance.png        # Feature extraction visualization
+├── figures/                                   # EDA graphs and visual insights
+├── .gitignore                                 # Git exclusion rules
+├── Group3_Dataset_of_Employee_Attrition.xlsx  # Raw original dataset
+├── Preprocessing.ipynb                        # Legacy/Initial simple preprocessing notebook
+├── requirements.txt                           # Project dependencies
+└── README.md                                  # Project documentation
